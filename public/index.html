@@ -7,8 +7,16 @@
     <meta name="description" content="Web site created using create-snowpack-app" />
     <title>Snowpack App</title>
     <script type="module" src="/dist/index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    Hello World From Typescript
+    <div class="task-ground">
+      <ul id="list"></ul>
+  
+      <form id="new-task-form">
+        <input type="text" id="new-task-title">
+        <button type="submit">Add</button>
+      </form>
+    </div>
   </body>
 </html>

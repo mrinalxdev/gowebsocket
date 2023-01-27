@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.task-ground {
+    border: 2px solid #000; 
+    width: 600px;
+    padding: 20px;
+    height: auto;
+}
+.task-ground input {
+    margin: 30px 0;
+}
+.task-ground ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+
